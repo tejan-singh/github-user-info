@@ -92,3 +92,5 @@ Run the dev server
 ```
 npm start
 ```
+
+Server will start on `http://localhost:3000`
