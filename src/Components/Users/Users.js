@@ -8,7 +8,7 @@ const Users = ({ userData, loading }) => {
   }
 
   return (
-    <div style={userStyle}>
+    <div  className='grid-3'>
       {userData.map((user) => {
         return <User key={user.id} user={user} />;
       })}
@@ -16,10 +16,5 @@ const Users = ({ userData, loading }) => {
   );
 };
 
-const userStyle = {
-  display: "grid",
-  gridTemplateColumns: "repeat(3, 1fr)",
-  gridGap: "1rem",
-};
 
 export default Users;
