@@ -22,7 +22,7 @@
 - Fast loading and error handling.
 - Mobile responsiveness.
 
-### Tech stacks used 🛴
+### Tech stacks used
 - ReactJS
     - useState
     - useEffect
