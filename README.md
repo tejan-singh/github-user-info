@@ -11,7 +11,7 @@
 ## _GitHub User Info is an online open source web application which helps you to find GitHub user and their details for FREE._
 
 - User can search for a GitHub user.
-- Users with similar names can be found in the results.
+- Users with similar names can be found in the search results.
 - Details of user and their profile can be found easily.
 - Latest repository list of the user can be found in their profile page.
 - User can clear the previous search results.
@@ -22,7 +22,7 @@
 - Fast loading and error handling.
 - Mobile responsiveness.
 
-### Tech stacks used 🛴
+### Tech stacks used
 - ReactJS
     - useState
     - useEffect
@@ -92,3 +92,5 @@ Run the dev server
 ```
 npm start
 ```
+
+Server will start on `http://localhost:3000`
